@@ -1,0 +1,288 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+}
+
+/* -------------- HEADER -------------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f1f1f1;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.logo > h4 {
+  font-size: 18px;
+}
+
+.logo > p {
+  font-size: 12px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  font-size: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #467031;
+  font-weight: bold;
+}
+
+#image-header {
+  width: 310px;
+  height: 310px;
+  display: flex;
+  margin-bottom: 100px;
+  border-radius: 100%;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  margin-right: 80px;
+  margin-top: 80px;
+}
+
+.apresentacao > h1 {
+  font-size: 50px;
+}
+
+.apresentacao > h3 {
+  font-size: 18px;
+}
+
+.apresentacao > p {
+  font-size: 12px;
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoes a {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #467031;
+}
+
+/* -------------- SOBRE -------------- */
+
+#sobre-section {
+  width: 90%;
+  max-width: 1000px;
+  border: 1px solid #467031;
+  border-radius: 20px;
+  margin: 80px auto 100px;
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+#image-sobre {
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  width: 100%;
+  display: block;
+}
+
+/* -------------- PROJETOS -------------- */
+
+#projetos-section {
+  width: 90%;
+  max-width: 1000px;
+  border: 1px solid #467031;
+  border-radius: 20px;
+  margin: 80px auto 100px;
+  padding: 50px;
+}
+
+.projeto-1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.projeto-preview {
+  width: 452px;
+  max-width: 100%;
+  height: 555px;
+  overflow-y: scroll;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  flex-shrink: 0;
+}
+
+.projeto-preview img {
+  width: 100%;
+  display: block;
+}
+
+.projeto-1-info {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.botao {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #467031;
+}
+
+.botao a{
+  color: white;
+  text-decoration: none;
+}
+
+/* -------------- CONTATO -------------- */
+
+#contato-section {
+  width: 90%;
+  max-width: 1000px;
+  border: 1px solid #467031;
+  border-radius: 20px;
+  margin: 80px auto 100px;
+  padding: 50px;
+  text-align: center;
+}
+
+.contato-contate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contato-section form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#contato-section h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#contato-section label {
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+#contato-section input,
+#contato-section textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #467031;
+  border-radius: 12px;
+  font-family: inherit;
+  background-color: #f7f7f7;
+}
+
+#contato-section textarea {
+  height: 120px;
+  resize: none;
+}
+
+#contato-section input[type="submit"] {
+  width: 140px;
+  background-color: #467031;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.botoes-contato {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.botoes-contato a {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #467031;
+}
+
+/* -------------- FOOTER -------------- */
+
+footer {
+  text-align: center;
+  margin-bottom: 30px;
+}

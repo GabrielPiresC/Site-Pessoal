@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="style.css" rel="stylesheet" />
+  <title>Site Pessoal</title>
+</head>
+
+<body>
+  <div class="janela">
+    <header>
+      <div class="logo">
+        <h4>Gabriel Pires</h4>
+        <p>Desenvolvedor</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#sobre-section">Sobre</a></li>
+          <li><a href="#projetos-section">Projetos</a></li>
+          <li><a href="#contato-section">Contato</a></li>
+        </ul>
+      </nav>
+    </header> 
+        
+    <main>
+      <section class="info">
+        <img id="image-header" src="https://media.licdn.com/dms/image/v2/D4D35AQECV2dPuF54Iw/profile-framedphoto-shrink_800_800/B4DZyv60gsJ4Ag-/0/1772477958536?e=1780318800&v=beta&t=m883aFdKBClxj_NFB8RiJk5crXqIu06veN_eaCEKnkM" alt="Foto do Gabriel Pires">
+        <div class="apresentacao">
+          <h1>Olá!</h1>
+          <h3>Um pouco sobre mim:</h3>
+          <p>Estudante de Análise e Desenvolvimento de Sistemas,<br/>em busca da minha primeira oportunidade na área de<br/>desenvolvimento. Apaixonado por tecnologia, aprendizado<br/>contínuo e construção de soluções através do código.</p>
+          <br/>
+          <div class="botoes">
+            <a href="#sobre-section">Sobre</a>
+            <a href="#projetos-section">Projetos</a>
+            <a href="#contato-section">Contato</a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="sobre-section">
+        <div class="sobre-info">
+          <h2>Sobre</h2> 
+          <br/>
+          <p>
+            Sou estudante de <b>Análise e Desenvolvimento de Sistemas</b> na PUCRS e<br/>atualmente estou em transição de carreira para a área de tecnologia.<br/>Após 9 anos de experiência no Design Gráfico, desenvolvendo criatividade,<br/>atenção aos detalhes e foco na experiência do usuário, iniciei em 2025<br/>minha jornada no desenvolvimento de software.<br/><br/>
+            Além da graduação, venho complementando meus estudos por meio de<br/>cursos e <b>projetos práticos</b> em plataformas como <b>Udemy</b> e <b>Codédex</b>,<br/>com foco em desenvolvimento e construção de aplicações.<br/><br/>
+            Atualmente atuo como <b>estagiário de Suporte N1</b> no setor de TI do<br/>Conselho Regional de Medicina de Santa Catarina (CRM-SC), adquirindo<br/>experiência prática em ambiente corporativo e ampliando meus<br/>conhecimentos em tecnologia.<br/><br/>
+            Hoje, meu objetivo é conquistar minha <b>primeira oportunidade na área<br/>de desenvolvimento</b>, aplicando minha bagagem criativa, capacidade analítica<br/>e dedicação ao aprendizado contínuo para construir soluções<br/>que gerem valor e impacto.
+          </p>
+        </div>
+        <div class="sobre-foto">
+          <img id="image-sobre" src="https://i.ibb.co/SwN1jMds/GABRIEL2.png" alt="Foto do Gabriel">
+        </div>
+      </section>
+      
+      <section id="projetos-section">
+        <h2>Projetos</h2>
+        <br/>
+        <p>
+          Aqui você encontrará projetos que fazem parte da minha transição e crescimento na área de tecnologia.<br/>Cada um deles contribuiu para expandir meus conhecimentos e transformar ideias em experiências reais.
+        </p>
+        <br/>
+        <div class="projeto-1">
+          <div class="projeto-preview">
+            <img id="image-projeto-1" src="https://i.imgur.com/0tabpaL.png" alt="Projeto Cafeteria Pixel">
+          </div>
+          <div class="projeto-1-info">
+            <h3>Cafeteria Pixel</h3>
+            <br/>
+            <p>O projeto Cafeteria Pixel é uma página web desenvolvida com HTML e CSS, inspirada em uma cafeteria com estética retrô e visual em pixel art. O site apresenta uma estrutura simples e organizada, com cabeçalho, menu de produtos, seção de pedidos e rodapé. No projeto, foram aplicados conceitos como estrutura semântica com section, article e form, navegação interna por links, uso de imagens animadas, estilização com cores personalizadas, botões com efeito de interação e organização dos itens do cardápio com Flexbox. A seção de pedido conta com campos de texto, seleção de quantidade, opções de personalização e área para comentários, simulando uma experiência básica de compra em uma cafeteria online.</p>
+            <br/>
+              <div class="botao">
+                <a href="https://gabrielpiresc.github.io/cafeteria.pixel/">Conheça</a>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato-section">
+        <h2>Contate-me</h2>
+        <br/>
+        <div class="contato-contate">
+          <form>
+            <h3>Alguma pergunta ou observação?<br/>Basta me escrever uma mensagem!</h3>
+            <label for="email">Seu email: </label><input type="text" id="email" name="email" placeholder="Digite um email válido" required>
+            <label for="nome">Seu nome: </label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            <textarea id="mensagem" name="mensagem" maxlength="500" placeholder="Deixe aqui a sua mensagem"></textarea>
+            <input type="submit" value="ENVIAR">
+          </form>
+          <div class="botoes-contato">
+            <a href="https://github.com/GabrielPiresC">GITHUB</a>
+            <a href="https://www.linkedin.com/in/gabriel-pires-coracini-6477463a6/">LINKEDIN</a>
+            <a href="https://www.behance.net/gabrielpiresdesign">BEHANCE</a>
+          </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>Feito com amor por  @GabrielPiresC</p>
+  </footer>
+</body>
+</html>
